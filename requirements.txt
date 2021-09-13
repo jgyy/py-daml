@@ -1,3 +1,10 @@
+lxml
 black
 numpy
+pandas
 pylint
+requests
+openpyxl
+html5lib
+sqlalchemy
+BeautifulSoup4
