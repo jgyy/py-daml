@@ -13,3 +13,11 @@ This repository uses anaconda for virtual environement and vscode as "IDE" the v
   "python.linting.enabled": true
 }
 ```
+
+The steps to create a new environment and libraries are as follows
+
+```sh
+conda create -n m1
+conda activate m1
+conda install --file requirements.txt
+```
