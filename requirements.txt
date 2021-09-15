@@ -12,3 +12,4 @@ matplotlib
 sqlalchemy
 cufflinks-py
 BeautifulSoup4
+pandas-datareader
