@@ -6,5 +6,6 @@ pylint
 requests
 openpyxl
 html5lib
+matplotlib
 sqlalchemy
 BeautifulSoup4
