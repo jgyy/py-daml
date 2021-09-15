@@ -3,6 +3,7 @@ black
 numpy
 pandas
 pylint
+seaborn
 requests
 openpyxl
 html5lib
