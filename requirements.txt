@@ -2,6 +2,7 @@ lxml
 black
 numpy
 pandas
+plotly
 pylint
 seaborn
 requests
@@ -9,4 +10,5 @@ openpyxl
 html5lib
 matplotlib
 sqlalchemy
+cufflinks-py
 BeautifulSoup4
