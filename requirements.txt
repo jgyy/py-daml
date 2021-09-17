@@ -1,6 +1,7 @@
 lxml
 black
 numpy
+pydot
 pandas
 plotly
 pylint
