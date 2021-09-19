@@ -5,6 +5,7 @@ Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , M
 ## Environment
 
 This repository uses anaconda for virtual environement and vscode as "IDE" the vscode settings are as follows.
+"pylint" and "black" libraries are needed for formatting purpose
 
 ```json
 {
@@ -17,7 +18,9 @@ This repository uses anaconda for virtual environement and vscode as "IDE" the v
 The steps to create a new environment and libraries are as follows
 
 ```sh
-conda create -n m1
+conda create -n m1 python=3.8.12
 conda activate m1
-conda install --file requirements.txt
+export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
+export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+conda env update -f requirements.yaml -n m1
 ```
