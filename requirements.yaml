@@ -1,11 +1,12 @@
 name: tensorflow
 dependencies:
-    - python=3.8.12
     - pip
+    - python=3.8.12
     - jupyter
     - scikit-learn
     - scipy
     - pandas
+    - pyspark
     - pandas-datareader
     - matplotlib
     - pillow
@@ -21,6 +22,7 @@ dependencies:
     - numpy
     - pydot
     - keras
+    - psutil
     - plotly
     - pylint
     - seaborn
