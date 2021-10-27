@@ -18,9 +18,9 @@ This repository uses anaconda for virtual environement and vscode as "IDE" the v
 The steps to create a new environment and libraries are as follows
 
 ```sh
-conda create -n m1 python=3.8.12
+conda create -n m1
 conda activate m1
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
-conda env update -f requirements.yaml -n m1
+conda env update -f requirements.yaml
 ```
