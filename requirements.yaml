@@ -1,7 +1,7 @@
 name: tensorflow
 dependencies:
     - pip
-    - python=3.8.12
+    - python
     - jupyter
     - scikit-learn
     - scipy
